@@ -1,0 +1,9 @@
+scheduling:
+  enabled: true
+  someJob:
+    delay: "PT2S"
+spring:
+  task:
+    scheduling:
+      pool:
+        size: 2
